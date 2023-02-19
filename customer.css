@@ -1,0 +1,144 @@
+.cvr{
+    background-image:  url('diregnt2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.flt{
+    height: 800px;
+    width: 960px;
+    background-color: #adadad;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    background: transparent;
+    font-weight: bold;
+}
+.nv{
+    width: 940px;
+    height: 50px;
+    background-color: #bebebe;
+    padding: 0.5em;
+   
+    }
+.lg{
+    width: 940px;
+    height: 30px;
+    padding: 0.5em;
+    text-align: right;
+}
+.nm{
+width: 293.3px;
+height: 50px;
+padding: 0.5em;
+float: left;
+margin-left: 10px;
+}
+.cty{
+    width: 293.3px;
+    height: 50px;
+    padding: 0.5em;
+    float: left;
+    margin-left: 10px;
+}
+.tn{
+    width: 293.3px;
+    height: 50px;
+    padding: 0.5em;
+    float: left;
+    margin-left: 10px;
+}
+.srv{
+    width: 293.3px;
+    height: 50px;
+    padding: 0.5em;
+    float: left;
+    margin-left: 10px;
+}
+.cnt{
+    width: 293.3px;
+    height: 50px;
+    padding: 0.5em;
+    float: left;
+    margin-left: 10px;
+}
+
+.ttl{
+width: 293.3px;
+height: 50px;
+padding: 0.5em;
+float: left;
+margin-left: 10px;
+}
+.cf{
+    width: 600px;
+    height: 50px;
+    padding: 0.5em;
+    float: left;
+    margin-left: 10px;
+}
+.rmk{
+width: 600px;
+height: 180px;
+padding: 0.5em;
+float: left;
+margin-left: 10px;
+}
+#btn{
+    position: relative;
+    font-size: 20px;
+    margin-left: 750px;
+    background-color: #444444;
+    padding: 0.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: solid 3px;
+    background: transparent;
+    color: whitesmoke;
+}
+#btn:hover{
+    background-color: green;
+    color: blue;
+}
+
+.linkCntr{
+    width: 940px;
+height: 50px;
+padding: 0.5em;
+float: left;
+margin-left: 10px;
+}
+.bd{
+    background-color: #444444;
+}
+.lgn{
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 700px;
+    background-color: #777;
+    padding: 0.5em;
+    color: whitesmoke;
+}
+.clbd{
+    background-color: #444444;
+ 
+}
+.sinup{
+    position: relative;
+    width: 520px;
+    height: 700px;
+    background-color: #666666;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: whitesmoke;
+    padding: 0.5em;
+    
+}
+.bdysn{
+    background-color: #444444;
+}

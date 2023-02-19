@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>customer data</title>
+    
+     <link rel="stylesheet" href="customer.css" type="text/css"/>
+   
+</head>
+<body class="cvr" >
+ <div class="flt">
+   <form action="customer.php" method="POST" class="frm"  enctype="multipart/form-data">
+    <nav class="nv">
+      <h1 style="text-align: center;" >CUSTOMERS </h1>
+    </nav>
+    <div class="lg"><a href="login.php">Logout</a> </div>
+    <div class="nm">
+      <label for="NAMES" >NAME</label>
+      <input type="text" name="NAMES" id="lbl"/>
+     </div>
+     <div class="cty">
+      <label for="CITY">CITY</label>
+      <input type="text" name="CITY"id="lbl" />
+     </div>
+     <div class="tn">
+      <label for="TIN">TIN</label>
+      <input type="text" name="TIN"id="lbl" />
+     </div>
+    <div class="srv">
+      <label for="SERVICE">SERVICES</label>
+      <input type="text" name="SERVICES" id="lbl"/>
+    </div>
+     <div class="cnt">
+      <label for="CONTACT">CONTACT</label>
+      <input type="text" name="CONTACT" id="lbl"/>
+     </div>
+     
+    <label>Image </label>
+    <input type="file" name="image" class="form-control" required >
+    <label>Title</label>
+    <input type="text" name="title" class="form-control">
+    <br><br>
+    <div class="rmk">
+      <label for="REMARKS">REMARK</label><br>
+    <textarea name="REMARKS" id="lbl" cols="60" rows="10"></textarea> 
+    <button name="form_submit" id="btn" class="btn-primary"> Upload</button><br>
+    </div>
+     
+  <div class="linkCntr">
+    <p id="lnk"><a href="create_tb.php">Create table | </a>
+      <a href="display.php">Extracts |</a>
+    <a href="ImportEx\index.php">Import |</a>
+    <a href="delete.php">Delete all</a>
+  </p>  
+  </div>
+ 
+  </form>
+  </div>
+  <?php include('foot.php'); ?>
+</body>
+</html>
